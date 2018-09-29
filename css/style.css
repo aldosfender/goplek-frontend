@@ -1,0 +1,139 @@
+* {
+    font-family: 'Oxygen', sans-serif;
+}
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #78909c !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #78909c !important;
+  }
+}
+
+h1 {
+  letter-spacing: 8px;
+   color: aqua;
+}
+
+h5 {
+  letter-spacing: 3px;
+}
+
+.hr-light {
+  border-top: 3px solid #fff;
+  width: 80px;
+}
+
+.aqua {
+    color: deepskyblue;
+}
+
+.whiteborder {
+    border: 3px solid whitesmoke;
+    padding: 20px;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+.margintop {
+    margin-top: 80px !important;
+}
+
+.size {
+    font-size: 85px;
+    float: bottom;
+    color: whitesmoke;
+}
+
+.black {
+    color: black;
+    background-color: white !important;
+}
+
+.black:hover {
+    background-color: white !important;
+    color: darkcyan;
+}
+
+.f {
+    float: right;
+}
+
+.paddingspace {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.size2 {
+    color: black;
+    font-size: 60px;
+}
+
+.fondogris {
+    background-color: lightgrey;
+}
+
+.margint {
+    margin-top: 25px !important;
+}
+
+.line {
+    color: deepskyblue;
+    border: 1px solid;
+    width: 130px;
+    margin-top: -25px !important;
+}
+
+.iconsize {
+    font-size: 85px;
+}
+
+.fondonegro {
+    background-color: black;
+}
+
+.whitesmoke {
+    color: whitesmoke !important;
+}
+
+.sizeletter {
+    font-size: 20px;
+}
+
+.bold {
+    font-size: 15px;
+}
+
+input[type=text]  {
+    background-color: black;
+}
+
+input[type=email] {
+    background-color: black;
+}
+
+.textarea {
+    background-color: black;
+}
